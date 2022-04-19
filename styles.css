@@ -90,3 +90,55 @@ body {
     margin: 0 auto;
     padding-bottom: 0.5em;
   }
+
+  /* wider displays */
+
+  @media screen and (min-width: 635px) {
+
+    .logo,
+    main h1,
+    aside h2 {
+      text-align: inherit;
+    }
+
+  nav {
+    position: sticky;
+    top: 0px;
+  }
+
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    nav li {
+      flex: 1;
+      border-bottom: none;
+      border-right: 2px solid grey;
+    }
+
+    nav li:last-child {
+      border-right: none;
+    }
+
+    nav a {
+      letter-spacing: inherit;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      column-gap: 1em;
+    }
+
+    .photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+    }
+
+    .photos img {
+      margin: 0;
+      padding: 0;
+    }
+  }
