@@ -64,3 +64,29 @@ body {
       float: left;
       margin-inline-end: 1em;
   }
+
+  /* mobile only */
+
+  .logo,
+  main h1,
+  nav a,
+  aside h2 {
+    text-align: center;
+  }
+
+  nav li {
+    border-bottom: 2px solid grey;
+  }
+
+  nav li:last-child {
+    border-bottom: none;
+  }
+
+  nav a {
+    letter-spacing: 0.2em;
+  }
+
+  .photos img {
+    margin: 0 auto;
+    padding-bottom: 0.5em;
+  }
