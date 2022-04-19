@@ -1,0 +1,66 @@
+/* gneral document styling */
+
+body {
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+  }
+
+  img {
+      max-width: 100%;
+      display: block;
+  }
+  
+  .logo {
+    font-size: 200%;
+    padding: 50px 20px;
+    margin: 0 auto;
+    max-width: 980px;
+    text-align: center;
+  }
+  
+  .grid {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 980px;
+  }
+  
+  nav {
+    background-color: #000;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0.8em;
+  }
+
+  nav a:focus,
+  nav a:hover {
+    background: grey;
+  }
+
+  nav a:active {
+    background: goldenrod;
+    color: black;
+  }
+  
+  .photos {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feature {
+      width: 200px;
+      float: left;
+      margin-inline-end: 1em;
+  }
